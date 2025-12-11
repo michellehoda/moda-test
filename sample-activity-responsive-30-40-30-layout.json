@@ -99,7 +99,7 @@
                "type": "ManagedInteractive",
                "ref_id": "370118-ManagedInteractive",
                "linked_interactives": [],
-               "column": "secondary",
+               "column": "primary",
                "position": 2
              },
             {
@@ -155,17 +155,15 @@
               "type": "ManagedInteractive",
               "ref_id": "370117-ManagedInteractive",
               "linked_interactives": [],
-              "column": "primary",
+              "column": "secondary",
               "position": 1
             },
             {
-              "column": "tertiary",
-              "is_half_width": false,
-              "name": "",
+              "name": "Comparison Video",
               "url_fragment": null,
-              "authored_state": "{\"version\":1,\"questionType\":\"open_response\",\"prompt\":\"<p>This is an open response question in the tertiary column.</p>\"}",
+              "authored_state": "{\"version\":1,\"questionType\":\"iframe_interactive\",\"videoUrl\":\"http://moda.education/assets/videos/u1_hot_water_default.mp4\",\"fixedHeight\":690}",
               "is_hidden": false,
-              "show_in_featured_question_report": true,
+              "is_half_width": false,
               "inherit_aspect_ratio_method": true,
               "custom_aspect_ratio_method": null,
               "inherit_native_width": true,
@@ -181,31 +179,40 @@
               "inherit_image_url": true,
               "custom_image_url": null,
               "linked_interactive_item_id": null,
+              "inherit_hide_question_number": true,
+              "custom_hide_question_number": false,
+              "inherit_save_interactive_state_history": true,
+              "custom_save_interactive_state_history": false,
               "library_interactive": {
-                "hash": "da655ced823a0246a5f8c5c46c90345f28f53efe",
                 "data": {
                   "aspect_ratio_method": "DEFAULT",
                   "authoring_guidance": "",
-                  "base_url": "https://models-resources.concord.org/question-interactives/version/v1.7.0/open-response/",
+                  "base_url": "https://models-resources.concord.org/question-interactives/version/v1.19.0/video-player/",
                   "click_to_play": false,
                   "click_to_play_prompt": null,
-                  "description": "This shouldn't be used by any real activities it is still under development.",
-                  "enable_learner_state": true,
+                  "description": "This video player will not have the blue header bar above the interactive.\r\nIt does not save the students position in the video. \r\nIt will not show up in the teacher report.",
+                  "enable_learner_state": false,
+                  "hide_question_number": false,
+                  "save_interactive_state_history": false,
                   "full_window": false,
                   "has_report_url": false,
                   "image_url": null,
-                  "name": "Open Response (master)",
+                  "name": "Video Player",
                   "native_height": 435,
                   "native_width": 576,
                   "no_snapshots": false,
                   "show_delete_data_button": false,
                   "thumbnail_url": "",
                   "customizable": false,
-                  "authorable": true
+                  "authorable": true,
+                  "report_item_url": ""
                 }
               },
               "type": "ManagedInteractive",
-              "ref_id": "315-ManagedInteractive"
+              "ref_id": "370119-ManagedInteractive",
+              "linked_interactives": [],
+              "column": "tertiary",
+              "position": 3
             }
           ]
         }
