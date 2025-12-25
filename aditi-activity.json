@@ -160,7 +160,7 @@
                   "label": "dataSourceInteractive"
                 }
               ],
-              "column": "primary",
+              "column": "secondary",
               "position": 2
             },
             {
@@ -187,7 +187,7 @@
               "type": "MwInteractive",
               "ref_id": "106087-MwInteractive",
               "linked_interactives": [],
-              "column": "primary",
+              "column": "tertiary",
               "position": 3
             }
           ]
