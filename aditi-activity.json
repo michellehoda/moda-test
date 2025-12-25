@@ -100,7 +100,7 @@
               "ref_id": "370127-ManagedInteractive",
               "linked_interactives": [],
               "column": "primary",
-              "position": 2
+              "position": 1
             },
             {
               "name": "Pollutants Simulation",
@@ -161,7 +161,7 @@
                 }
               ],
               "column": "secondary",
-              "position": 2
+              "position": 1
             },
             {
               "name": "CODAP V3",
@@ -188,7 +188,7 @@
               "ref_id": "106087-MwInteractive",
               "linked_interactives": [],
               "column": "tertiary",
-              "position": 3
+              "position": 1
             }
           ]
         }
