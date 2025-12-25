@@ -160,8 +160,8 @@
                   "label": "dataSourceInteractive"
                 }
               ],
-              "column": "primary",
-              "position": 2
+              "column": "secondary",
+              "position": 1
             },
             {
               "name": "CODAP V3",
