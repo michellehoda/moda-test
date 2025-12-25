@@ -99,7 +99,7 @@
               "type": "ManagedInteractive",
               "ref_id": "369909-ManagedInteractive",
               "linked_interactives": [],
-              "column": "primary",
+              "column": "secondary",
               "position": 1
             },
             {
@@ -188,7 +188,7 @@
               "ref_id": "106087-MwInteractive",
               "linked_interactives": [],
               "column": "tertiary",
-              "position": 3
+              "position": 1
             }
           ]
         }
